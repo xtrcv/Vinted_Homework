@@ -8,6 +8,8 @@ Anaconda package and its' dependencies. Scripts were written using VSCodium and 
 ## Task #1
 To get results needed for the first task, place the 'map_reduce_task1.py' script in the directory where your CSV file is located, and then change the 'FILE_NAME' in 'data = pd.read_csv("FILE_NAME.csv")' to count how many clicks there were for each date and write the results into a TXT file in the current dirrectory (where you've placed your script).
 
+At this beta stage of the script, it won't iterate over each file in your specified directory, thus, you'll have to change 'FILE_NAME' and run the script separately for each data file.
+
 ## Task #2
 Scripts used to get the results needed for Task #2 are a bit 'rough around the edges', thus, you will have to run three of them. 
 
