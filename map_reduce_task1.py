@@ -27,3 +27,4 @@ reversed(aggregated_dict)
 with open('results.txt', 'w') as f:
     for key, value in aggregated_dict.items():
         f.write(f"{key}: [{value}]\n")
+
