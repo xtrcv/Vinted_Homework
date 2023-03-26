@@ -1,6 +1,6 @@
 # Simplified MapReduce Framework in Python
 
-This framework tries to follow 'MapReduce' logic as close as possible, with the exception of splitting the initial files and processing them in different threads.
+This framework tries to follow 'MapReduce' logic as close as possible, with the exception of splitting the initial files and processing them in parallel.
 
 ## Prerequisites
 Anaconda package and its' dependencies. Scripts were written using VSCodium and were tested on Linux Debian, and should work on any system. To install it on your system, follow the instructions as described here: https://docs.anaconda.com/anaconda/install/index.html
