@@ -23,5 +23,7 @@ Unfortunately I forgot to include 'click_target' in the final dataset of the Tas
 I have to admit that I've spent a lot of time on these tasks and haven't looked into using parallel processing, and although I understand that it's an optional task, I wish I had more time to do it as I believe it's the whole point of MapReduce. 
 
 ## FAQ
+
 Q: I have issues executing the code after installing Anaconda.
+
 A: It might be because another Python package already exists on your system. Uninstalling the Python package that you had in your system using 'pip uninstall [package_name]' might help.
