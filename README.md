@@ -11,11 +11,11 @@ To get results needed for the first task, place the 'map_reduce_task1.py' script
 ## Task #2
 Scripts used to get the results needed for Task #2 are a bit 'rough around the edges', thus, you will have to run three of them. 
 
-Firstly, run the 'map_reduce_task2.py' to create the 'LT_IDs.txt' file that contains all the Lithuanian ID numbers. IDs are pulled from 'directory = '/home/unserun/Desktop/Vinted Homework/data/users', make sure to specify the right full path to the 'data/users' directory.
+First, run the 'map_reduce_task2.py' to create the 'LT_IDs.txt' file that contains all the Lithuanian ID numbers. IDs are pulled from 'directory = '/home/unserun/Desktop/Vinted Homework/data/users', make sure to specify the right full path to the 'data/users' directory.
 
-Secondly, run the 'map_reduce_task2.2.py' to create the 'output.txt' file that contains two columns, the date when a particular click was done, and the Lithuanian ID number that did that click on that date. Again, check the full paths of the directories specified in the script so that it iterates over the correct files.
+Second, run the 'map_reduce_task2.2.py' to create the 'output.txt' file that contains two columns, the date when a particular click was done, and the Lithuanian ID number that did that click on that date. Again, check the full paths of the directories specified in the script so that it iterates over the correct files.
 
-Thirdly, run the 'map_reduce_task2.3.py' script to create the 'final_results.txt' file that should contain a column of rows that look like this '2017-12-20:1:3'. Here, '2017-12-20' is the date when the click was done, '1' is the Lithuanian ID that did it, and '3' is the number of times that the ID clicked on that date.
+And finally, run the 'map_reduce_task2.3.py' script to create the 'final_results.txt' file that should contain a column of rows that look like this '2017-12-20:1:3'. Here, '2017-12-20' is the date when the click was done, '1' is the Lithuanian ID that did it, and '3' is the number of times that the ID clicked on that date.
 
 ## Comments
 Unfortunately I forgot to include 'click_target' in the final dataset of the Task #2, but it can pretty easily included later. 
